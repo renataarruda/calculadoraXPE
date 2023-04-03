@@ -57,11 +57,11 @@ function calcularDivisaoBA(a, b){
 
 
 function calcularPotenciaAB(a, b) {
-    return parseInt(Math.pow(a,b)).toFixed(2);
+    return parseInt((Math.pow(a,b)).toFixed(2));
 }
 
 function calcularPotenciaBA(a, b) {
-    return parseInt(Math.pow(b,a)).toFixed(2);
+    return parseInt((Math.pow(b,a)).toFixed(2));
 }
 
 function calcularRaizQuadradaA(a) {
